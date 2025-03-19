@@ -2,20 +2,22 @@ subject: Projects
 listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
-  - title: "ChatPPT ([https://chat.opena1.com/](https://chat.openai.com/))"
-    description: 
-      - Chatbot developed based on a large language model
-      - Designed Generative algorithm to generate novel human-like content
-      - "Technology Used: Rust, Typescript, Python, Ruby"
-    image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
-  - title: "AW5-cli ([https://github.com/aw5/aw5-cli](https://github.com/aws/aws-cli))"
-    description: 
-      - Universal Command Line Interface for Amazone Web Services
-      - Developed a scheme to facilitate users’ authentication without having to remember their credentials
-      - "Technology Used: Typescript, Python, Go"
-    image: "![](https://i.ibb.co/Ttb5Qn9/21321312.webp)"
-  - title: "PiTorch ([https://pitorch.org/](https://pytorch.org/))" 
-    description: 
-      - Machine learning library for applications such as computer vision and natural language processing
-      - "Technology Used: Python, Cuda, Objective-C++"
-    image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
+  - title: "Little Shop Final BE (solo)"
+    description:
+      - Back-end application for the Little Shop e-commerce platform, allowing users to view, purchase, and manage items
+      - Built a RESTful API and added a new table to an existing database using Ruby on Rails and PostgreSQL
+      - Implemented error handling with rescue_from and utilized TDD with RSpec for both happy and sad paths
+      - Updated a front-end route and modified innerHTML to display new data from the back-end
+      - "Technologies used: Ruby on Rails, PostgreSQL, RSpec, FactoryBot, ActiveRecord, TDD, Git/GitHub"
+    date: Jan. 2025
+    image: "![](https://geniusecommerce.com/wp-content/uploads/2017/05/optimize-ecommerce-store.png)"
+  - title: "BattleShip (group)"
+    description:
+      - Terminal-based Battleship game developed in Ruby, allowing users to play against the computer
+      - Utilized Test-Driven Development with RSpec to build and test various game components (e.g., Ship, Cell, Board classes)
+      - Built the game’s functionality using conditional logic and iterator methods to manage player actions, ship placement, and game progression
+      - Collaborated in a group using the driver-navigator method to ensure high-quality code and consistent functionality
+      - "Technologies used: Ruby, RSpec, TDD, Git/GitHub"
+    date: Oct. 2024
+    image: "![](https://www.shutterstock.com/shutterstock/videos/1101022465/thumb/1.jpg?ip=x480)"
+

@@ -2,21 +2,27 @@ subject: Experiences
 listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
-  - title: Nanosoft
-    role: Project Manager
+  - title: Jamba Juice
+    role: Shift Leader
     description:
-      - Led development of a new chatbot software utilizing large language model
-      - Co-designer of '*Kopilot*' and '*Gemmini*'
-    date: Jan. 2024 - Ongoing
-  - title: Amazone
-    role: Senior Software Engineer
-    description: 
-      - Built a Java microservice, database schema to manage customer accounts
-      - Enhanced internal pipelines to query real-time data from client devices
-    date: Apr. 2016 - Dec. 2018
-  - title: Pacebook
-    role: Software Engineer Intern
-    description: 
-      - Designed the dynamic website using React for data visualization
-      - Integrated '*Yolo*' to boost the accuracy of the object detection
-    date: Jul. 2013 - Sep. 2013
+      - Managed inventory, money, and daily operations
+      - Trained new staff and shift leaders at different locations
+      - Opened and closed the store, ensuring smooth operations
+      - Delegated tasks, handled customer complaints, and ensured high levels of customer satisfaction
+    date: July 2017 - Aug. 2018
+  - title: Deane's Market and Deli
+    role: Kitchen Assistant
+    description:
+      - Assisted with food preparation and inventory management
+      - Worked on the line making sandwiches during busy hours
+      - Ensured guest satisfaction and assisted with order placements
+      - Participated in closing duties, including delegating tasks and inventory management
+    date: Aug. 2018 - March. 2020
+  - title: Gia Mia Geneva
+    role: Shift Leader, Server, and Bartender
+    description:
+      - Managed shifts, ensuring smooth opening and closing of the restaurant
+      - Handled the safe and performed administrative tasks like marking sales and emails
+      - Provided excellent guest service, resolving issues and ensuring satisfaction
+      - Trained and supported staff, leading the team to maintain high service standards
+    date: July. 2020 - Sept. 2024

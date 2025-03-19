@@ -1,5 +1,5 @@
 title: Portfolio
-profile_img: /assets/img/logo.png
+profile_img: /assets/img/profile_pic.png
 icon_img: /assets/img/logo.png
 
 name: "Jonathan (Jono) Sommeres"
@@ -11,7 +11,7 @@ email: jonosommers95@gmail.com
 linkedin_username: jonosommers
 github_username: JonoSommers
 
-theme: jekyll-professional-resume
+theme: jekyll-uno
 
 exclude:
   - _posts/

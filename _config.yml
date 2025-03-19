@@ -6,12 +6,12 @@ name: "Jonathan (Jono) Sommeres"
 job: "Software Developer"
 
 phone_number: 630-888-4167
-address: St. Charles IL, United States of America
+address: St. Charles, IL, United States of America
 email: jonosommers95@gmail.com
 linkedin_username: jonosommers
 github_username: JonoSommers
 
-theme: jekyll-uno
+theme: jekyll-professional-resume
 
 exclude:
   - _posts/

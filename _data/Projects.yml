@@ -2,6 +2,17 @@ subject: Projects
 listing-order: 3
 icon: "/assets/img/clipboard-list.svg"
 contents:
+  - title: "Cardfolio (group)"
+    description:
+      - Collaborated as a group to design and develop a full-stack application for managing card collections
+      - Built RESTful APIs on the backend using Ruby on Rails to store, update, and create data, integrating with a database
+      - Implemented external API calls to Pokémon and Magic The Gathering card APIs for real-time card data
+      - Designed an intuitive user interface with responsive styling to ensure easy navigation and accessibility
+      - Incorporated robust error handling, testing, and validation to ensure application stability
+      - Utilized FactoryBot and JSON-API Serializer for seamless data handling and efficient testing
+      - Deployed the application using Heroku for live hosting and easy access
+    date: Mar. 2025
+    image: "![](assets/img/cardfolio.png)"
   - title: "Little Shop Final BE (solo)"
     description:
       - Back-end application for the Little Shop e-commerce platform, allowing users to view, purchase, and manage items

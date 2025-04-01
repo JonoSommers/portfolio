@@ -13,14 +13,14 @@
 
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url    : "https://JonoSommers.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/Portfolio" # the subpath of your site, e.g. /blog
 
-title      : Your Awesome Website
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Site description"
+title      : Jono Sommers Portfolio
+email      : jonosommers95@gmail.com #this is also the email contact forms will go to
+description: "Welcome to the portfolio of Jono Sommers. This site showcases my work, projects, and skills as a software developer."
 
-author     : Your Name
+author     : Jono Sommers
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px

@@ -1,15 +1,27 @@
-# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
+# Jono Sommers - Portfolio  
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking the 
-[![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate) button, 
-then replace the sample content with your own and configure for your needs.
+Welcome to my professional portfolio! This site showcases my projects, skills, and experience as a software developer.  
 
-If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://raviriley.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo. You can also use a `CNAME` file and your own custom domain!
+## 🚀 About  
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
+This portfolio highlights my work in **React, JavaScript, Ruby on Rails, SQL, and API development**. It includes:  
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+- A selection of projects I've built or contributed to  
+- My technical skills and background  
+- Contact information  
+
+## 🛠️ Technologies Used  
+
+- **Front-End:** React, JavaScript, HTML, CSS  
+- **Back-End:** Ruby on Rails, PostgreSQL  
+- **Other:** GitHub Pages, Jekyll  
+
+## 📌 Features  
+
+- **Responsive Design** – Works across different screen sizes  
+- **Project Showcase** – Displays key projects with descriptions and links  
+- **Contact Button** – Quick access to get in touch with me  
+
+## 📬 Contact  
+
+If you'd like to connect, feel free to [email me](mailto:your-email@example.com) or reach out on [LinkedIn](https://www.linkedin.com/in/your-profile).

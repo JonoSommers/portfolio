@@ -1,4 +1,3 @@
-#
 # Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
 #
 # Configuration: Add to _config.yml
@@ -41,8 +40,6 @@ en: &DEFAULT_EN
     title: "Timeline"
     text: "Lorem ipsum timeline"
     section: timeline
-    # left is the default
-    #start_align: "left"
     events:
       - title: "Our Humble Beginnings"
         year: "2009-2011"
@@ -64,7 +61,6 @@ en: &DEFAULT_EN
         desc: "Your description here, **Markdown** is fully supported."
         image: assets/img/timeline/4.jpg
         alt:
-        # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"
 
@@ -200,8 +196,6 @@ es: &DEFAULT_ES
     title: "Cronología"
     text: "Lorem ipsum timeline"
     section: cronologia
-    # left is the default
-    #start_align: "left"
     events:
       - title: "Nuestro Humilde Comienzo"
         year: "2009-2011"
@@ -220,18 +214,17 @@ es: &DEFAULT_ES
         alt: image alt text
       - title: "Título"
         year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
+        desc: "Su descripción aquí, **Markdown** es completamente compatible."
         image: assets/img/timeline/4.jpg
         alt:
-        # you can enforce the alignment
         align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
+    end: "¡Sé parte <br> de nuestra <br> historia!"
 
   about:
     title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: nosotros
+    text: "Nuestra historia"
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** es compatible."
+    section: sobre
 
   clients:
     section: clientes
@@ -252,10 +245,162 @@ es: &DEFAULT_ES
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
+    title: "NUESTRO IMPRESIONANTE EQUIPO"
     text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    subtext: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** es compatible."
     section: equipo
+    people:
+      - name: "Kay Garland"
+        role: "Diseñador Principal"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Marketing Principal"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Desarrolladora Principal"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Contáctanos"
+    text: "Lorem ipsum o llama al 123456789"
+    section: contacto
+    name: "Nombre*"
+    name-validation: "Por favor ingresa tu nombre."
+    email: "Correo electrónico*"
+    email-validation: "Por favor ingresa tu correo electrónico."
+    phone: "Número de teléfono"
+    phone-validation: "Por favor ingresa tu número de teléfono."
+    message: "Mensaje*"
+    message-validation: "Por favor ingresa un mensaje."
+    subject: "Envío de formulario de contacto"
+    submit: "Enviar mensaje"
+
+  footer:
+    legal: "Política de privacidad"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+es-ES:
+  <<: *DEFAULT_ES
+es-MX:
+  <<: *DEFAULT_ES
+
+# German
+# ------
+de: &DEFAULT_DE
+  header:
+    title: Willkommen in unserem Studio!
+    text: Schön, dich kennenzulernen
+    button: Mehr erfahren
+    buttonlink: "#services"
+
+  services:
+    title: "Dienstleistungen"
+    text: "Lorem ipsum"
+    section: services
+    list:
+      - title: "E-Commerce"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Responsive Design"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Deine Beschreibung hier, vollständige **Markdown** Unterstützung"
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+    closebutton: "Projekt schließen"
+
+  timeline:
+    title: "Zeitleiste"
+    text: "Lorem ipsum timeline"
+    section: timeline
+    events:
+      - title: "Unsere bescheidenen Anfänge"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Eine Agentur wird geboren"
+        year: "März 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Jekyll Template wird erstellt"
+        year: "2019"
+        desc: "Ravi Riley verwandelte Agency, ein auf Bootstrap basiertes Template, in ein Jekyll Template. Das Jekyll Template kann als Ruby-Gem oder remote installiert werden. Weitere Informationen finden Sie in der Dokumentation."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Titel"
+        year: "2009-2011"
+        desc: "Deine Beschreibung hier, **Markdown** wird vollständig unterstützt."
+        image: assets/img/timeline/4.jpg
+        alt:
+        align: right
+    end: "Sei Teil <br> unserer <br> Geschichte!"
+
+  about:
+    title: "Über uns"
+    text: "Unsere Geschichte"
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** unterstützt."
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "UNSER ERSTAUNLICHES TEAM"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** wird unterstützt."
+    section: team
     people:
       - name: "Kay Garland"
         role: "Lead Designer"
@@ -289,22 +434,22 @@ es: &DEFAULT_ES
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
+    title: "Kontaktiere uns"
+    text: "Lorem ipsum oder rufe 123456789 an"
+    section: kontakt
+    name: "Name*"
+    name-validation: "Bitte gib deinen Namen ein."
+    email: "E-Mail*"
+    email-validation: "Bitte gib deine E-Mail-Adresse ein."
+    phone: "Telefonnummer"
+    phone-validation: "Bitte gib deine Telefonnummer ein."
+    message: "Nachricht*"
+    message-validation: "Bitte gib eine Nachricht ein."
+    subject: "Kontaktformularabsendung"
+    submit: "Nachricht senden"
 
   footer:
-    legal: "Política de Privacidad"
+    legal: "Datenschutz"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"
@@ -316,7 +461,8 @@ es: &DEFAULT_ES
         icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+de-DE:
+  <<: *DEFAULT_DE
+de-AT:
+  <<: *DEFAULT_DE
+

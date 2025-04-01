@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Privacy Policy
+background: grey
 ---
+
 <div class="col-lg-12 text-center">
 	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
 </div>
@@ -20,7 +22,7 @@ We collect Device Information using cookies. “Cookies” are data files that a
 
 We do this using Google Analytics: <https://www.google.com/intl/en/policies/privacy/>.
 
-You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaoptout>.
+You can opt out of Google Analytics here: <https://tools.google.com/dlpage/gaoptout>.
 
 {% else %}
 

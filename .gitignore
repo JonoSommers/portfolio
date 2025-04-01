@@ -1,5 +1,14 @@
+# Jekyll and Ruby related files
 _site
 .sass-cache
 .jekyll-metadata
 .jekyll-cache
 Gemfile.lock
+
+# Ruby gem files
+*.gem
+.bundle
+
+# Unused files and references
+unused
+bootstrap-reference.html

@@ -10,24 +10,38 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
+    title: Welcome to my Portfolio!
     text: It's Nice To Meet You
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#about"
+
+  about:
+    title: "About Me"
+    text: "Everyone’s path into software is different — here’s mine."
+    body: "Hey! I’m Jono Sommers — a former hospitality leader turned software developer with a deep curiosity for how things work and a drive to keep learning. My journey into tech began with a simple question: What if I could build the tools that make people’s lives easier? Since then, I’ve gone all in — embracing every challenge, new language, and late-night “aha!” moment along the way. With a background in fast-paced, people-first environments, I bring a strong sense of adaptability, communication, and collaboration to every team I work with. I’m not just excited by new technologies — I thrive on diving into them, understanding them, and immediately finding ways to apply what I’ve learned to real problems. At the Turing School of Software & Design, I developed full-stack applications using JavaScript, React, Ruby on Rails, and APIs, but what really fuels me is the process of learning and building — from idea to implementation. I enjoy taking on new challenges, working with others to find smart solutions, and constantly evolving as a developer. I believe great software comes from a willingness to listen, iterate, and grow — and I’m always up for the next thing to explore. Whether I’m contributing to a team project or diving into a passion project on my own, I bring energy, curiosity, and heart to everything I build. Thanks for taking the time to learn a bit about me — I can’t wait to see where this journey leads next."
 
   services:
-    title: "Services"
+    title: "Tech"
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "React"
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Rails"
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "Ruby"
+        icon: fab fa-markdown
+      - title: "Javascript"
+        icon: fab fa-markdown
+      - title: "SQL"
+        icon: fab fa-markdown
+      - title: "Active Record"
+        icon: fab fa-markdown
+      - title: "TypeScript"
+        icon: fab fa-markdown
+      - title: "Cypress"
+        icon: fab fa-markdown
+      - title: ""
         icon: fab fa-markdown
 
   portfolio:
@@ -45,7 +59,7 @@ en: &DEFAULT_EN
         year: "2009-2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
-        alt:
+        alt: 
       - title: "An Agency is Born"
         year: "March 2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
@@ -63,12 +77,6 @@ en: &DEFAULT_EN
         alt:
         align: right
     end: "Be Part <br> of Our <br> Story!"
-
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
 
   clients:
     section: clients

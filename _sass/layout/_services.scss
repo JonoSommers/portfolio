@@ -3,3 +3,35 @@
   margin: 15px 0;
   text-transform: none;
 }
+
+.card-container {
+  display: inline-block;
+  width: 160px;  /* Increased width */
+  height: 220px;  /* Increased height */
+  border-radius: 20px;  /* Slightly more rounded corners */
+  background-color: #f9f9f9;  /* Light background for the card */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Slightly more shadow for depth */
+  margin: 15px;  /* Increased space between cards */
+  text-align: center;  /* Center align content */
+  overflow: hidden;  /* Ensure everything stays inside the card */
+  position: relative;  /* Needed for absolute positioning of the title box */
+}
+
+.card-container img {
+  width: 100px;  /* Increased icon size */
+  height: 100px;  /* Increased icon size */
+  margin-top: 30px;  /* Increased space from the top */
+}
+
+.card-title {
+  background-color: #000000;  /* Changed to black */
+  padding: 10px;  /* Increased padding for more space */
+  font-weight: bold;
+  color: #fff;  /* White text */
+  border-top: 3px solid #333;  /* Slightly thicker border for separation */
+  border-radius: 0 0 20px 20px;  /* More rounded bottom corners */
+  font-size: 16px;  /* Slightly larger font */
+  position: absolute;  /* Absolute positioning to move it to the bottom */
+  bottom: -15px;  /* Stick the title box to the bottom of the card */
+  width: 100%;  /* Ensure title box spans the entire width */
+}

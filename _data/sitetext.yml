@@ -21,28 +21,28 @@ en: &DEFAULT_EN
     body: "Hey! I’m Jono Sommers — a former hospitality leader turned software developer with a deep curiosity for how things work and a drive to keep learning. My journey into tech began with a simple question: What if I could build the tools that make people’s lives easier? Since then, I’ve gone all in — embracing every challenge, new language, and late-night “aha!” moment along the way. With a background in fast-paced, people-first environments, I bring a strong sense of adaptability, communication, and collaboration to every team I work with. I’m not just excited by new technologies — I thrive on diving into them, understanding them, and immediately finding ways to apply what I’ve learned to real problems. At the Turing School of Software & Design, I developed full-stack applications using JavaScript, React, Ruby on Rails, and APIs, but what really fuels me is the process of learning and building — from idea to implementation. I enjoy taking on new challenges, working with others to find smart solutions, and constantly evolving as a developer. I believe great software comes from a willingness to listen, iterate, and grow — and I’m always up for the next thing to explore. Whether I’m contributing to a team project or diving into a passion project on my own, I bring energy, curiosity, and heart to everything I build. Thanks for taking the time to learn a bit about me — I can’t wait to see where this journey leads next."
 
   services:
-    title: "Tech"
-    text: "Lorem ipsum"
+    title: "Tech Stack"
+    text: "The programming languages, frameworks, and tools I use to bring my web development projects to life."
     section: services
     list:
       - title: "React"
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        icon: "https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react_color-512.png"
       - title: "Rails"
-        icon: fas fa-laptop
+        icon: "https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/rails-512.png"
       - title: "Ruby"
-        icon: fab fa-markdown
+        icon: "https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/ruby-512.png"
       - title: "Javascript"
-        icon: fab fa-markdown
+        icon: "https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-512.png"
       - title: "SQL"
-        icon: fab fa-markdown
+        icon: "https://cdn3.iconfinder.com/data/icons/file-extension-11/512/sql-file-extension-format-digital-512.png"
       - title: "Active Record"
-        icon: fab fa-markdown
+        icon: "https://cdn0.iconfinder.com/data/icons/software-development-17/66/66_logging_log_files_files_record_record_applications_active_log_inactive_log-512.png"
       - title: "TypeScript"
-        icon: fab fa-markdown
+        icon: "https://cdn0.iconfinder.com/data/icons/files-140/54/filetype-tsx-file-format-extension--typescript-scripting-512.png"
       - title: "Cypress"
-        icon: fab fa-markdown
-      - title: ""
-        icon: fab fa-markdown
+        icon: "https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png"
+      - title: "CSS3"
+        icon: "https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png"
 
   portfolio:
     title: "Portfolio"
@@ -97,41 +97,21 @@ en: &DEFAULT_EN
         logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Contact Me"
+    text: "Whether you're looking for advice, want to connect professionally, or just want to chat about tech, I'm happy to hear from you!"
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+      - name: "LinkedIn"
+        image: "https://static.vecteezy.com/system/resources/previews/023/986/970/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png"
+        url: "https://www.linkedin.com/in/jonosommers/"
+
+      - name: "Email"
+        image: "https://static-00.iconduck.com/assets.00/gmail-old-icon-2048x2048-czq9w1ua.png"
+        url: "mailto:jonosommers95@gmail.com"
+
+      - name: "Slack"
+        image: "https://www.logo.wine/a/logo/Slack_Technologies/Slack_Technologies-Mark-Logo.wine.svg"
+        url: "https://turingschool.slack.com/team/U07L1RS9205"
 
   contact:
     title: "Contact Us"

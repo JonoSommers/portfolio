@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Tea Time
-  subtitle: Solo Project
+  subtitle: Full Stack Solo Project
   thumbnail: "assets/img/portfolio/tea-time.jpg"
   
 #what displays when the item is clicked:
@@ -17,7 +17,7 @@ optional info list (delete if not using):
 
 {:.list-inline}
 
-- Date: March. 2025
+- Date: March 10th, 2025 - March 13th, 2025
 - Tech Stack:
 - FE Repo: [**Tea-Time FE**](https://github.com/JonoSommers/Tea-Time-FE)
 - BE Repo:[**Tea-Time BE**](https://github.com/JonoSommers/Tea-Time-BE)

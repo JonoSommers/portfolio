@@ -1,14 +1,14 @@
 ---
 caption: #what displays in the portfolio grid:
-  title: Rancid Tomatillos
-  subtitle: Paired Project
-  thumbnail: https://place-hold.it/400x300
+  title: Tracker
+  subtitle: Full Stack Consultancy Project
+  thumbnail: "assets/img/portfolio/tracker.jpg"
   
 #what displays when the item is clicked:
-title: Rancid Tomatillos
+title: Tracker
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://place-hold.it/400x300 #main image, can be a link or a file in assets/img/portfolio
-alt: image alt text
+image: "assets/img/portfolio/tracker.jpg" #main image, can be a link or a file in assets/img/portfolio
+alt: Tracker image
 
 ---
 Use this area to describe your project. **Markdown** supported.
@@ -17,6 +17,6 @@ optional info list (delete if not using):
 
 {:.list-inline}
 
-- Date: Feb. 2025
+- Date: March. 2025 - April. 2025
 - Tech Stack:
-- Repo: [**Rancid Tomatillos**](https://github.com/JonoSommers/rancid-tomatillos)
+- Deployed URL: [**Tracker**](https://tracker-crm-fe-38f7cf1aaca5.herokuapp.com/)

@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Rancid Tomatillos
-  subtitle: Paired Project
+  subtitle: React Paired Project
   thumbnail: "assets/img/portfolio/rancid-icon.jpg"
   
 #what displays when the item is clicked:
@@ -17,6 +17,6 @@ optional info list (delete if not using):
 
 {:.list-inline}
 
-- Date: Feb. 2025
+- Date: Feb. 13th, 2025 - Feb. 21st, 2025
 - Tech Stack:
 - Repo: [**Rancid Tomatillos**](https://github.com/JonoSommers/rancid-tomatillos)

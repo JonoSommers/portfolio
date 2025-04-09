@@ -1,9 +1,3 @@
-// Styling for the services section
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
-}
-
 .card-container {
   display: inline-block;
   width: 160px;  /* Increased width */
@@ -24,14 +18,18 @@
 }
 
 .card-title {
-  background-color: #000000;  /* Changed to black */
+  background-color: #333333;  /* Much darker gray background */
   padding: 10px;  /* Increased padding for more space */
   font-weight: bold;
   color: #fff;  /* White text */
-  border-top: 3px solid #333;  /* Slightly thicker border for separation */
+  border-top: 3px solid #444;  /* Slightly thicker border for separation */
   border-radius: 0 0 20px 20px;  /* More rounded bottom corners */
   font-size: 16px;  /* Slightly larger font */
   position: absolute;  /* Absolute positioning to move it to the bottom */
   bottom: -15px;  /* Stick the title box to the bottom of the card */
   width: 100%;  /* Ensure title box spans the entire width */
+}
+
+.card-container {
+  border: 1px solid #f1f1f1 !important; /* Ensuring no white space around the edges */
 }

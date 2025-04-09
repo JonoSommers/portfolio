@@ -1,5 +1,7 @@
-// Styling for the portfolio section
 #portfolio {
+  background-color: #121212 !important; /* Dark background for the portfolio section */
+  color: #E0E0E0 !important; /* Lighter text color for readability */
+  
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -9,6 +11,7 @@
       max-width: 400px;
       margin: 0 auto;
       cursor: pointer;
+      
       .portfolio-hover {
         position: absolute;
         width: 100%;
@@ -21,6 +24,7 @@
         &:hover {
           opacity: 1;
         }
+        
         .portfolio-hover-content {
           font-size: 20px;
           position: absolute;
@@ -29,23 +33,24 @@
           height: 20px;
           margin-top: -12px;
           text-align: center;
-          color: white;
+          color: white !important; /* Keep text white for visibility */
           i {
             margin-top: -12px;
           }
-          h3,
-          h4 {
+          h3, h4 {
             margin: 0;
           }
         }
       }
     }
+
     .portfolio-caption {
       max-width: 400px;
       margin: 0 auto;
       padding: 25px;
       text-align: center;
-      background-color: $white;
+      background-color: #1d1d1d !important; /* Darker background to match dark mode */
+      color: #E0E0E0 !important; /* Lighter text color */
       h4 {
         margin: 0;
         text-transform: none;
@@ -54,14 +59,16 @@
         font-size: 16px;
         font-style: italic;
         margin: 0;
-        @include serif-font;
+        color: #E0E0E0 !important; /* Ensure text remains visible */
       }
     }
   }
+
   * {
     z-index: 2;
   }
 }
+
 @media (min-width: 767px) {
   #portfolio {
     .portfolio-item {
@@ -78,30 +85,48 @@
   .modal-content {
     padding: 100px 0;
     text-align: center;
+    background-color: #121212 !important; /* Dark background for modal */
+    color: #E0E0E0 !important; /* Light text color for readability */
+    
     h2 {
       font-size: 3em;
       margin-bottom: 15px;
     }
+    
     p {
       margin-bottom: 30px;
+      color: #E0E0E0 !important; /* Ensure paragraph text is light */
     }
+
     p.item-intro {
       font-size: 16px;
       font-style: italic;
       margin: 20px 0 30px;
       @include serif-font;
     }
+
     ul.list-inline {
       margin-top: 0;
       margin-bottom: 30px;
     }
+
     img {
       margin-bottom: 30px;
     }
+
     button {
       cursor: pointer;
+      background-color: #444444 !important; /* Match button with dark theme */
+      color: #E0E0E0 !important; /* Lighter text for buttons */
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      &:hover {
+        background-color: #F5A623 !important; /* Accent color on hover */
+      }
     }
   }
+
   .close-modal {
     position: absolute;
     top: 25px;
@@ -110,30 +135,24 @@
     height: 75px;
     cursor: pointer;
     background-color: transparent;
+    
     &:hover {
       opacity: 0.3;
     }
+
     .lr {
-      /* Safari and Chrome */
       z-index: 1051;
       width: 1px;
       height: 75px;
       margin-left: 35px;
-      /* IE 9 */
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
       transform: rotate(45deg);
-      background-color: $gray-900;
+      background-color: #444444 !important; /* Darker line color */
       .rl {
-        /* Safari and Chrome */
         z-index: 1052;
         width: 1px;
         height: 75px;
-        /* IE 9 */
-        -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
         transform: rotate(90deg);
-        background-color: $gray-900;
+        background-color: #444444 !important; /* Darker line color */
       }
     }
   }

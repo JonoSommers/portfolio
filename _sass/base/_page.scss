@@ -1,22 +1,25 @@
 // Global styling for this template
 body {
   overflow-x: hidden;
+  background-color: #121212; /* Deep, rich dark background */
+  color: #E0E0E0; /* Brighter light grey text color for better contrast */
   @include body-font;
 }
 
 p {
   line-height: 1.75;
+  color: #E0E0E0; /* Brightened text color for paragraphs */
 }
 
 a {
-  color: $primary;
+  color: #E0E0E0; /* Consistent bright grey text for links */
   &:hover {
-    color: darken($primary, 10%);
+    color: #B0B0B0; /* Slightly lighter grey for hover effect */
   }
 }
 
 .text-primary {
-  color: $primary !important;
+  color: #E0E0E0 !important; /* Ensure text-primary matches the regular text */
 }
 
 h1,
@@ -26,25 +29,30 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+  color: #F5F5F5; /* Bright white for headings */
   @include heading-font;
 }
 
 .page-section {
   padding: 100px 0;
+  
   h2.section-heading {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
   }
+  
   h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
+    color: #E0E0E0; /* Brightened text for subheadings */
     @include serif-font;
   }
 }
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
@@ -53,12 +61,12 @@ h6 {
 
 // Highlight color customization
 ::-moz-selection {
-  background: $primary;
+  background: #F5F5F5; /* Bright white for selection background */
   text-shadow: none;
 }
 
 ::selection {
-  background: $primary;
+  background: #F5F5F5; /* Bright white for selection background */
   text-shadow: none;
 }
 

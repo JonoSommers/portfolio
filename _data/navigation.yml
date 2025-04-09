@@ -14,8 +14,8 @@ en: &DEFAULT_EN
     - title: "About"
       section: about
     - title: "Tech Stack"
-      section: tech
-    - title: "Portfolio"
+      section: services
+    - title: "Projects"
       section: portfolio
     - title: "Timeline"
       section: timeline

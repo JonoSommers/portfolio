@@ -1,8 +1,14 @@
-// Styling for the timeline section
+// Styling for the timeline section with dark mode adjustments
+#timeline.bg-light {
+  background-color: #121212 !important; /* Ensures that dark background is applied */
+  color: #E0E0E0 !important; /* Ensures that light text color is applied */
+}
+
 .timeline {
   position: relative;
   padding: 0;
   list-style: none;
+  background-color: #121212; /* Dark background to match rest of the site */
   &:before {
     position: absolute;
     top: 0;
@@ -11,8 +17,9 @@
     width: 2px;
     margin-left: -1.5px;
     content: "";
-    background-color: $gray-200;
+    background-color: #444444; /* Slightly lighter grey to stand out a bit */
   }
+
   > li {
     position: relative;
     min-height: 50px;
@@ -25,25 +32,32 @@
     &:after {
       clear: both;
     }
+
     .timeline-panel {
       position: relative;
       float: right;
       width: 100%;
       padding: 0 20px 0 100px;
       text-align: left;
+      background-color: #1d1d1d; /* Slightly lighter background to make the panel stand out */
+      color: #E0E0E0; /* Lighter text color */
+      border-radius: 5px;
       &:before {
         right: auto;
         left: -15px;
         border-right-width: 15px;
         border-left-width: 0;
+        border-color: #1d1d1d; /* Match panel's background */
       }
       &:after {
         right: auto;
         left: -14px;
         border-right-width: 14px;
         border-left-width: 0;
+        border-color: #1d1d1d; /* Match panel's background */
       }
     }
+
     .timeline-image {
       position: absolute;
       z-index: 100;
@@ -52,53 +66,63 @@
       height: 80px;
       margin-left: 0;
       text-align: center;
-      color: $white;
-      border: 7px solid $gray-200;
+      color: #E0E0E0; /* Lighter text color */
+      border: 7px solid #444444; /* Match the timeline line color */
       border-radius: 100%;
-      background-color: $primary;
+      background-color: #F5A623; /* Bright accent color to match the rest of the site */
       h4 {
         font-size: 10px;
         line-height: 14px;
         margin-top: 12px;
       }
     }
+
     &.timeline-inverted > .timeline-panel {
       float: right;
       padding: 0 20px 0 100px;
       text-align: left;
+      background-color: #1d1d1d;
+      color: #E0E0E0;
       &:before {
         right: auto;
         left: -15px;
         border-right-width: 15px;
         border-left-width: 0;
+        border-color: #1d1d1d;
       }
       &:after {
         right: auto;
         left: -14px;
         border-right-width: 14px;
         border-left-width: 0;
+        border-color: #1d1d1d;
       }
     }
+
     &:last-child {
       margin-bottom: 0;
     }
   }
+
   .timeline-heading {
     h4 {
       margin-top: 0;
-      color: inherit;
+      color: #E0E0E0; /* Lighter color for better readability */
       &.subheading {
         text-transform: none;
       }
     }
   }
+
   .timeline-body {
     > ul,
     > p {
       margin-bottom: 0;
+      color: #E0E0E0; /* Lighter text for body content */
     }
   }
 }
+
 @media (min-width: 768px) {
   .timeline {
     &:before {
@@ -132,6 +156,7 @@
     }
   }
 }
+
 @media (min-width: 992px) {
   .timeline {
     > li {
@@ -155,6 +180,7 @@
     }
   }
 }
+
 @media (min-width: 1200px) {
   .timeline {
     > li {

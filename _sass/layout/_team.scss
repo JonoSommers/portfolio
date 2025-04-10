@@ -1,14 +1,13 @@
-/* Styling for the team section */
+/* Styling for the team (Contact Me) section */
 .team-member {
   margin-bottom: 50px;
   text-align: center;
 }
 
-
 .team-member img {
   width: 225px;
   height: 225px;
-  border: 7px solid fade-out($white, 0.7);
+  border: 7px solid rgba(255, 255, 255, 0.7); /* Adjusted for correct white color */
   border-radius: 50%; 
   object-fit: cover; 
   transition: all 0.3s ease-in-out;
@@ -37,4 +36,16 @@ p {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+/* Additional styling for spacing and layout */
+.row.d-flex.justify-content-around {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border: 7px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+}

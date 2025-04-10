@@ -10,7 +10,8 @@
     </div>
     <div class="row d-flex justify-content-center">
       {% for person in site.data.sitetext[site.locale].team.people %}
-        <div class="col-sm-4">
+        <!-- Change col-sm-4 to col-sm-3 to fit 4 columns in a row -->
+        <div class="col-sm-3">
           <div class="team-member">
             <!-- Link to contact methods -->
             <a href="{{ person.url }}" target="_blank">
@@ -35,7 +36,8 @@
     </div>
     <div class="row d-flex justify-content-center">
       {% for person in site.data.sitetext.team.people %}
-        <div class="col-sm-4">
+        <!-- Change col-sm-4 to col-sm-3 to fit 4 columns in a row -->
+        <div class="col-sm-3">
           <div class="team-member">
             <!-- Link to contact methods -->
             <a href="{{ person.url }}" target="_blank">
@@ -51,6 +53,3 @@
 </section>
 {% endif %}
 <!-- End Team -->
-
-
-

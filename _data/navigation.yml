@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   nav:
     - title: "About"
       section: about
-    - title: "Tech Stack"
+    - title: "Skills"
       section: services
     - title: "Projects"
       section: portfolio
@@ -21,6 +21,8 @@ en: &DEFAULT_EN
       section: timeline
     - title: "Contact Me"
       section: team
+    - title: "Resume"
+      section: resume
 
 en-US:
   <<: *DEFAULT_EN

@@ -26,6 +26,16 @@ a {
   color: #E0E0E0 !important; /* Ensure text-primary matches the regular text */
 }
 
+.about-image {
+  width: 225px; /* Set the same size as the team images */
+  height: 225px;
+  border: 7px solid rgba(255, 255, 255, 0.7); /* Light border similar to team section */
+  border-radius: 50%; /* Circular shape */
+  object-fit: cover; /* Ensures the image covers the circle well */
+  transition: all 0.3s ease-in-out; /* Smooth transition if needed */
+  margin-bottom: 20px; /* Space between image and title */
+}
+
 h1,
 h2,
 h3,

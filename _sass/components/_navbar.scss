@@ -1,6 +1,7 @@
 // Styling for the navbar
 #mainNav {
   background-color: $gray-900;
+
   .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -11,9 +12,13 @@
     background-color: $primary;
     @include heading-font;
   }
+
   .navbar-brand {
     color: $primary;
     @include script-font;
+    margin-left: 80px;
+    font-size: 1.75em; // Larger size for the brand text
+    font-weight: 700;
     &.active,
     &:active,
     &:focus,
@@ -21,6 +26,7 @@
       color: darken($primary, 10%);
     }
   }
+
   .navbar-nav {
     .nav-item {
       .nav-link {
@@ -30,6 +36,8 @@
         letter-spacing: 1px;
         color: white;
         @include heading-font;
+        position: relative;
+        left: 10px;
         &.active,
         &:hover {
           color: $primary;
@@ -37,7 +45,37 @@
       }
     }
   }
+
+  // Role label styling (custom-label)
+  .custom-label {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    white-space: nowrap;
+    animation: waveAnimation 3s ease-in-out infinite; // Smooth wave effect
+  }
 }
+
+@keyframes waveAnimation {
+  0% {
+    transform: translateY(-50%) rotate(-3deg); // Start with a slight tilt to the left
+  }
+  50% {
+    transform: translateY(-50%) rotate(3deg); // Slightly tilt to the right
+  }
+  100% {
+    transform: translateY(-50%) rotate(-3deg); // Back to the left tilt smoothly
+  }
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -47,19 +85,24 @@
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
+
     .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
+      margin-left: 80px;
     }
+
     .navbar-nav {
       .nav-item {
         .nav-link {
           padding: 1.1em 1em !important;
+          left: 10px;
         }
       }
     }
+
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;

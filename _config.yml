@@ -16,6 +16,7 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "https://JonoSommers.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/Portfolio" # the subpath of your site, e.g. /blog
 
+role       : Software Developer
 title      : Jono Sommers Portfolio
 email      : jonosommers95@gmail.com #this is also the email contact forms will go to
 description: "Welcome to the portfolio of Jono Sommers. This site showcases my work, projects, and skills as a software developer."

@@ -15,6 +15,6 @@ Rancid Tomatillos is a collaborative front-end project built with React that all
 
 - **Date**:   *Feb. 13th, 2025 - Feb. 21st, 2025*
 
-- **Tech Stack**:   *React, JavaScript, React Router (Link, NavLink, and Dynamic Routing), Cypress (E2E Testing), HTML / CSS, Heroku (for front-end deployment), Fetch API (for communication with the back-end server)*
+- **Tech Stack**:   *React, JavaScript, React Router (Link, NavLink, and Dynamic Routing), Cypress (E2E Testing), HTML / CSS, Heroku (for front-end deployment), Fetch API (for communication with the back-end server), CSS, Git/GitHub(version control), Slack(communication), GitHub Project Board*
 
 - **Repo**:   <a href="https://github.com/JonoSommers/rancid-tomatillos" target="_blank"><u>Rancid Tomatillos</u></a>

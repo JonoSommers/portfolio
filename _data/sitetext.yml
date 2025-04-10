@@ -47,6 +47,26 @@ en: &DEFAULT_EN
         icon: "https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png"
       - title: "CSS3"
         icon: "https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png"
+      - title: "HTML"
+        icon: "https://cdn1.iconfinder.com/data/icons/metro-ui-dock-icon-set--icons-by-dakirby/512/HTML.png"
+      - title: "Tailwind"
+        icon: "https://cdn3.iconfinder.com/data/icons/teenyicons-solid-vol-3/15/tailwind-512.png"
+      - title: "RSpec"
+        icon: "https://rspec.info/images/logo_ogp.png"
+      - title: "Git/GitHub"
+        icon: "https://cdn2.iconfinder.com/data/icons/social-media-iconez/64/GitHub-512.png"
+      - title: "JSON"
+        icon: "https://cdn0.iconfinder.com/data/icons/smashicons-file-types-retro/58/25_-_JSON_File_file_document_directory_-512.png"
+      - title: "NodeJS"
+        icon: "https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png"
+      - title: Postman
+        icon: "https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/postman-512.png"
+      - title: NPM
+        icon: "https://cdn3.iconfinder.com/data/icons/font-awesome-brands/576/npm-512.png"
+      - title: VScode
+        icon: "https://cdn1.iconfinder.com/data/icons/akar-vol-2/24/vscode-fill-512.png"
+
+
 
   portfolio:
     title: "Projects"
@@ -56,30 +76,36 @@ en: &DEFAULT_EN
 
   timeline:
     title: "Timeline"
-    text: "Lorem ipsum timeline"
+    text: "My Journey into Software Development"
     section: timeline
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "Waubonsee Community College, Sugar Gove, IL"
+        year: "Jan. 2016 - May 2018"
+        desc: "Earned an Associate of Arts in Liberal Arts and Science while managing two part-time jobs, demonstrating strong time management and multitasking skills."
+        image: "https://yt3.googleusercontent.com/ytc/AIdro_mJZh0OKZPCXiFDELUekNMjbjzfCBR8cEX1TuSDWzZsCyQ=s900-c-k-c0x00ffffff-no-rj"
         alt: 
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "Shift Lead | Jamba Juice, Geneva, IL"
+        year: "July 2018 - June 2019"
+        desc: "Led store operations, overseeing opening/closing tasks, inventory management, and register balancing, while training new employees and managers to ensure consistent standards across multiple locations and addressing guest concerns to maintain high levels of customer satisfaction."
+        image: "https://m.media-amazon.com/images/I/51Ui2V-mjuL._AC_UF894,1000_QL80_.jpg"
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+      - title: "Elgin Community College, Elgin, IL"
+        year: "August 2018 - May 2022"
+        desc: "Earned an Associate of Applied Science in Hospitality Management while working nearly full-time."
+        image: "https://chambermaster.blob.core.windows.net/images/customers/650/representatives/1499/400x400/WDCE+logo_125248.png"
+        alt: 
+      - title: "Server/Bartender/Shift Lead | Gia Mia, Geneva, IL"
+        year: "June 2020 - Sept. 2024"
+        desc: "Led shift teams to ensure efficient operations and high guest satisfaction in a fast-paced environment, while training new employees and managers to maintain consistent standards across multiple locations. Managed financial records, including safe counts and tip distribution, ensuring accuracy and compliance, and coordinated with management and team members for clear communication and successful shift execution."
+        image: "https://media.licdn.com/dms/image/v2/C4E0BAQGUykqWtvOOFA/company-logo_200_200/company-logo_200_200/0/1630567719506/bg_hospitality_group_logo?e=2147483647&v=beta&t=LR23IeBDb84ejtw--31VXa6kbKv5YVo2vBpp9hjWqag"
         alt:
         align: right
+      - title: "Turing School of Software & Design, Denver, CO "
+        year: "Sept. 2024 - May 2025"
+        desc: "Earned an Accredited Full-Stack Engineering Certificate through a 1500-hour intensive, ACCET-accredited program focused on software development, providing comprehensive training in both back-end and front-end technologies."
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiCjXKs637I-axpkt22xkfS1vR9m4zopLyWg&s"
+        alt:
+        align: left
     end: "Be Part <br> of My <br> Story!"
 
   clients:

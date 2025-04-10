@@ -19,4 +19,4 @@ optional info list (delete if not using):
 
 - Date: March. 2025 - April. 2025
 - Tech Stack:
-- Deployed URL: [**Tracker**](https://tracker-crm-fe-38f7cf1aaca5.herokuapp.com/)
+- Deployed URL: <a href="https://tracker-crm-fe-38f7cf1aaca5.herokuapp.com/" target="_blank"><u>Tracker</u></a>

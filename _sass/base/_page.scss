@@ -11,6 +11,10 @@ p {
   color: #E0E0E0; /* Brightened text color for paragraphs */
 }
 
+#about .large p {
+  text-align: left !important;
+}
+
 #portfolio .section-subheading p {
   color: #6c757d !important;
 }

@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Tea Time
   subtitle: Full Stack Solo Project
-  thumbnail: "assets/img/portfolio/tea-time.jpg"
+  thumbnail: "assets/img/portfolio/tea.png"
   
 #what displays when the item is clicked:
 title: Tea Time

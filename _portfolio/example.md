@@ -2,12 +2,12 @@
 caption: #what displays in the portfolio grid:
   title: Rancid Tomatillos
   subtitle: React Paired Project
-  thumbnail: "assets/img/portfolio/rancid-icon.jpg"
+  thumbnail: "assets/img/portfolio/rancid.png"
   
 #what displays when the item is clicked:
 title: Rancid Tomatillos
 subtitle: A sleek, React-based movie rating app with dynamic routing and detailed movie views.
-image: "assets/gifs/rancid.gif"
+image: "assets/img/portfolio/rancid.png"
 alt: Rancid Tomatillos image
 
 ---

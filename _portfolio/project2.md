@@ -2,7 +2,7 @@
 caption: #what displays in the portfolio grid:
   title: Tracker
   subtitle: Full Stack Capstone Project
-  thumbnail: "assets/img/portfolio/tracker.jpg"
+  thumbnail: "assets/img/portfolio/tracker.png"
   
 #what displays when the item is clicked:
 title: Tracker

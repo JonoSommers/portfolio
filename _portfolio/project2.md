@@ -7,7 +7,7 @@ caption: #what displays in the portfolio grid:
 #what displays when the item is clicked:
 title: Tracker
 subtitle: A full-stack app built with Rails and React/TypeScript for tracking job applications, companies, and contacts.
-image: "assets/gifs/tracker.gif" #main image, can be a link or a file in assets/img/portfolio
+image: "assets/img/portfolio/tracker.png" #main image, can be a link or a file in assets/img/portfolio
 alt: Tracker image
 
 ---

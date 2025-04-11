@@ -7,7 +7,7 @@ caption: #what displays in the portfolio grid:
 #what displays when the item is clicked:
 title: Tracker
 subtitle: A full-stack app built with Rails and React/TypeScript for tracking job applications, companies, and contacts.
-image: "assets/img/portfolio/tracker.jpg" #main image, can be a link or a file in assets/img/portfolio
+image: "assets/gifs/tracker.gif" #main image, can be a link or a file in assets/img/portfolio
 alt: Tracker image
 
 ---
@@ -17,4 +17,5 @@ A collaborative full-stack web app with a Ruby on Rails API and a React TypeScri
 
 - **Tech Stack**: *Ruby on Rails, React/TypeScript, Tailwind CSS, Cypress, Custom error types, Git/GitHub(version control), Slack(communication), GitHub Project Board, CircleCI(CI/CD)*
 
-- **D**eployed URL**: <a href="https://tracker-crm-fe-38f7cf1aaca5.herokuapp.com/" target="_blank"><u>Tracker</u></a>
+- **FE Repo**: <a href="https://github.com/turingschool/tracker-crm-fe" target="_blank"><u>Tracker-FE</u></a>
+- **Deployed URL**: <a href="https://tracker-crm-fe-38f7cf1aaca5.herokuapp.com/" target="_blank"><u>Tracker</u></a>

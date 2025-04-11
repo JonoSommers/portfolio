@@ -7,7 +7,7 @@ caption: #what displays in the portfolio grid:
 #what displays when the item is clicked:
 title: Tea Time
 subtitle: A full-stack admin portal built with Rails and React, allowing admins to manage users, teas, and subscriptions.
-image: "assets/img/portfolio/tea-time.jpg" #main image, can be a link or a file in assets/img/portfolio
+image: "assets/gifs/tea.gif" #main image, can be a link or a file in assets/img/portfolio
 alt: Tea Time image
 
 ---

@@ -7,7 +7,7 @@ caption: #what displays in the portfolio grid:
 #what displays when the item is clicked:
 title: Rancid Tomatillos
 subtitle: A sleek, React-based movie rating app with dynamic routing and detailed movie views.
-image: "assets/img/portfolio/rancid-icon.jpg"
+image: "assets/gifs/rancid.gif"
 alt: Rancid Tomatillos image
 
 ---

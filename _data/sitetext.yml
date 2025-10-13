@@ -19,7 +19,7 @@ en: &DEFAULT_EN
     link: "https://docs.google.com/document/d/18rRBLrzc7wVKuVF8L9Ub23L7ZDLcRP6xKQiyWKlY9KM/edit?usp=sharing"
 
   about:
-    image: "assets/profile.jpeg"
+    image: "./assets/profile.jpeg"
     title: "About Me"
     text: "Everyone’s path into software is different — here’s mine."
     body: |
